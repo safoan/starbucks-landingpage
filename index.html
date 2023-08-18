@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    script src="main.js"></script
     <title>Random css</title>
 </head>
 <body>
     <section>
+        <div class="circle"></div>
         <header>
             <a href="#" class="logo"> <img src="img/logo.png"></a>
             <ul>
@@ -21,9 +23,8 @@
             <div class="textbox">
                     <h2>it's not just a Coffee <br>it's <span>Starbucks</span></h2>
                     <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took 
+                    Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry.Lorem Ipsum has been the industry's
                     </p>
                     <a href="#">learn More</a>
             </div>
@@ -31,6 +32,16 @@
                     <img src="img/img1.png" class="Starbucks">
             </div>
         </div> 
+        <ul class="thumb">
+            <li><img src="img/thumb1.png" onclick="imgSlider('img/img1.png');changecirclecolor('#017143')"></li>
+            <li><img src="img/thumb2.png" onclick="imgSlider('img/img2.png');changecirclecolor('#eb7495')"></li>
+            <li><img src="img/thumb3.png" onclick="imgSlider('img/img3.png');changecirclecolor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+        </ul>
     </section>
     
 
